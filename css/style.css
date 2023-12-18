@@ -103,7 +103,9 @@ h6 {
   width: 100%;
 }
 
-.btn-navigation {
+.btn-toggle {
+  margin-right: 16px;
+  margin-top: 6px;
   width: 60px;
 }
 
@@ -159,15 +161,42 @@ h6 {
   color: #382400;
 }
 
-/* @media only screen and (min-width: 768px) {
-  .navigation {
-    display: none;
-  }
+/* Для мобильной версии */
+.navigation-mobile {
+  /* background-color: aquamarine; */
+  display: none;
+  justify-content: space-between;
+  height: 100px;
+  padding: 15px 0;
+}
 
-  .navigation-mobile {
-    display: flex;
-  }
-} */
+.navigation-mobile-items {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.128);
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.navigation-mobile-item {
+  color: #b99150;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid #b99150;
+  transition: ease-in-out .2s;
+}
+
+.showItems {
+  display: flex;
+}
+
+
 
 /* Hellow */
 .hellow {
@@ -234,7 +263,6 @@ h6 {
 }
 
 .select-item {
-  /* background-color: aquamarine; */
   color: #382400;
   box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.128);
   display: flex;
@@ -243,7 +271,6 @@ h6 {
   height: 354px;
   margin-top: 24px;
   padding: 20px 20px 16px 20px;
-  /* width: 25%; */
   width: 282px;
 }
 
@@ -310,4 +337,102 @@ h6 {
   color: #b99150;
   font-family: "MullerRegular", sans-serif;
   font-size: 18px;
+}
+
+
+/* До ширины 768px для мобильных */
+@media screen and (max-width: 768px) {
+
+  .navigation-mobile {
+    display: flex;
+  }
+
+  .hellow,
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hellow {
+    background: none;
+    margin-top: 34px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 16px;
+  }
+
+  .hellow-title {
+    text-align: center;
+  }
+
+  .hellow-items-cover {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .hellow-item {
+    width: 100%;
+  }
+
+  .btn-select {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .select {
+    margin-top: 260px;
+  }
+
+  .select-item {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footer {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .footer-message {
+    width: 100%;
+  }
+
+  .footer-form {
+    /* border: 1px solid grey; */
+    margin-left: 0;
+    padding-top: 46px;
+    width: 100%;
+  }
+}
+
+/* До для планшетов */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .hellow,
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hellow {
+    margin-top: 64px;
+  }
+
+
+  .logo {
+    margin-left: 16px;
+  }
+
+  .select-item {
+    margin-left: 0;
+    width: 50%;
+  }
 }
