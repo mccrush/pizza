@@ -39,15 +39,15 @@ h6 {
 }
 
 .color-gold {
-  color: #F6AF47;
+  color: #ffaf18;
 }
 
 .color-grey {
-  color: #B5905B;
+  color: #b99150;
 }
 
 .color-brown {
-  color: #362408;
+  color: #382400;
 }
 
 .text-center {
@@ -72,14 +72,22 @@ h6 {
 }
 
 .btn {
-  background-color: #F6AF47;
-  color: #362408;
+  background-color: #ffaf18;
+  border-radius: 0px;
+  color: #382400;
+  cursor: pointer;
   font-family: "MullerBold", sans-serif;
   font-size: 16px;
   font-weight: bold;
   height: 60px;
   min-width: 224px;
   text-align: center;
+  transition: ease-in-out .2s;
+}
+
+.btn:hover {
+  background-color: #f5a124;
+  border-radius: 8px;
 }
 
 .btn-select {
@@ -88,25 +96,11 @@ h6 {
 
 .btn-busket {
   height: 52px;
-  /* margin-top: 34px; */
   width: 100%;
 }
 
 .btn-order {
-  /* margin-top: 34px; */
   width: 100%;
-}
-
-.border {
-  border: 2px solid grey;
-}
-
-.border-orange {
-  border-color: orangered;
-}
-
-.border-green {
-  border-color: green;
 }
 
 /* Navigation */
@@ -134,7 +128,7 @@ h6 {
 }
 
 .logo-title {
-  color: #F6AF47;
+  color: #ffaf18;
   font-family: "MullerExtraBold", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
@@ -150,13 +144,18 @@ h6 {
 
 .navigation-item {
   align-items: baseline;
-  color: #B5905B;
+  color: #b99150;
+  cursor: pointer;
   font-size: 16px;
   margin-right: 50px;
+  transition: ease-in-out .2s;
+}
+
+.navigation-item:hover {
+  color: #382400;
 }
 
 /* Hellow */
-
 .hellow {
   background-image: url(/images/hellow/pizza_big.png);
   background-repeat: no-repeat;
@@ -167,6 +166,7 @@ h6 {
 
 .hellow-title {
   font-size: 45px;
+  line-height: 1.2;
 }
 
 .hellow-items-cover {
@@ -193,20 +193,19 @@ h6 {
 }
 
 .hellow-item-title {
-  color: #F6AF47;
+  color: #ffaf18;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .hellow-item-text {
-  color: #B5905B;
+  color: #b99150;
   line-height: 1;
   margin-top: 6px;
 }
 
 /* Select */
 .select {
-  /* height: 70vh; */
   margin-top: 100px;
 }
 
@@ -222,6 +221,7 @@ h6 {
 
 .select-item {
   /* background-color: aquamarine; */
+  color: #382400;
   box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.128);
   display: flex;
   flex-direction: column;
@@ -273,7 +273,7 @@ h6 {
 }
 
 .footer-text {
-  color: #B5905B;
+  color: #b99150;
   line-height: 1.4;
   margin-top: 64px;
 }
@@ -286,14 +286,14 @@ h6 {
 }
 
 .footer-form-input {
-  border: 1px solid #B5905B;
+  border: 1px solid #b99150;
   margin-bottom: 24px;
   padding: 24px;
   width: 100%;
 }
 
 .footer-form-input::placeholder {
-  color: #B5905B;
+  color: #b99150;
   font-family: "MullerRegular", sans-serif;
   font-size: 18px;
 }
