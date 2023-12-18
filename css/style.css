@@ -274,6 +274,7 @@ h6 {
 }
 
 .select-item-image {
+  cursor: pointer;
   display: block;
   height: 144px;
   margin: 0 auto;
@@ -334,29 +335,40 @@ h6 {
   font-size: 18px;
 }
 
+
 /* modal-window */
 .modal-window {
   background-color: rgba(70, 70, 70, 0.7);
+  display: none;
   height: 100%;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
 }
 
 .modal-close {
-  position: fixed;
-  top: 24px;
-  right: 24px;
-  width: 48px;
+  background-color: #b99150;
+  color: #382400;
+  cursor: pointer;
+  font-family: "MullerExtraBold", sans-serif;
+  font-size: 35px;
   height: 48px;
+  position: fixed;
+  right: 24px;
+  top: 24px;
+  width: 48px;
 }
 
 .modal-image {
   position: fixed;
-  top: 25%;
+  top: 20%;
   left: 25%;
   width: 50%;
+}
+
+.showModal {
+  display: block;
 }
 
 /* До ширины 768px для мобильных */
@@ -427,6 +439,10 @@ h6 {
     margin-left: 0;
     padding-top: 46px;
     width: 100%;
+  }
+
+  .modal-image {
+    top: 25%;
   }
 }
 
