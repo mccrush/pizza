@@ -65,9 +65,7 @@ h6 {
 }
 
 .block {
-  /* height: 64px; */
   margin: 0 auto;
-  /* max-width: 900px; */
   max-width: 1200px;
 }
 
@@ -109,13 +107,13 @@ h6 {
   width: 60px;
 }
 
+
 /* Navigation */
 .navigation-cover {
   box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.128);
 }
 
 .navigation {
-  /* background-color: aquamarine; */
   display: flex;
   height: 100px;
   padding: 15px 0;
@@ -161,9 +159,9 @@ h6 {
   color: #382400;
 }
 
+
 /* Для мобильной версии */
 .navigation-mobile {
-  /* background-color: aquamarine; */
   display: none;
   justify-content: space-between;
   height: 100px;
@@ -196,6 +194,7 @@ h6 {
   display: flex;
 }
 
+/* Конец Для мобильной версии */
 
 
 /* Hellow */
@@ -213,7 +212,6 @@ h6 {
 }
 
 .hellow-items-cover {
-  /* border: 1px solid purple; */
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -246,6 +244,7 @@ h6 {
   line-height: 1;
   margin-top: 6px;
 }
+
 
 /* Select */
 .select {
@@ -293,10 +292,7 @@ h6 {
 
 
 
-
-
 /* Footer */
-
 .footer {
   display: flex;
   margin-top: 240px;
@@ -320,7 +316,6 @@ h6 {
 }
 
 .footer-form {
-  /* border: 1px solid grey; */
   margin-left: 128px;
   padding-top: 46px;
   width: 330px;
@@ -371,7 +366,6 @@ h6 {
   }
 
   .hellow-items-cover {
-    /* border: 1px solid purple; */
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -406,14 +400,13 @@ h6 {
   }
 
   .footer-form {
-    /* border: 1px solid grey; */
     margin-left: 0;
     padding-top: 46px;
     width: 100%;
   }
 }
 
-/* До для планшетов */
+/* Для планшетов */
 @media screen and (min-width: 769px) and (max-width: 1200px) {
 
   .hellow,
