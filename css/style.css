@@ -1,16 +1,16 @@
 @font-face {
   font-family: "MullerRegular";
-  src: url('./css/fonts/MullerRegular.woff');
+  src: url('./fonts/MullerRegular.woff');
 }
 
 @font-face {
   font-family: "MullerBold";
-  src: url('./css/fonts/MullerBold.woff');
+  src: url('./fonts/MullerBold.woff');
 }
 
 @font-face {
   font-family: "MullerExtraBold";
-  src: url('./css/fonts/MullerExtraBold.woff');
+  src: url('./fonts/MullerExtraBold.woff');
 }
 
 * {
