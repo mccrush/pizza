@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "Muller-Regular";
-  src: url('/css/fonts/Muller-Trial-Regular.woff');
+  font-family: "MullerRegular";
+  src: url('/css/fonts/MullerRegular.woff');
 }
 
 @font-face {
-  font-family: "Muller-Bold";
-  src: url('/css/fonts/Muller-Trial-Bold.woff');
+  font-family: "MullerBold";
+  src: url('/css/fonts/MullerBold.woff');
 }
 
 @font-face {
-  font-family: "Muller-ExtraBold";
-  src: url('/css/fonts/Muller-Trial-ExtraBold.woff');
+  font-family: "MullerExtraBold";
+  src: url('/css/fonts/MullerExtraBold.woff');
 }
 
 * {
@@ -26,7 +26,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "Muller-Regular", sans-serif;
+  font-family: "MullerRegular", sans-serif;
 }
 
 h1,
@@ -35,7 +35,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muller-Bold", sans-serif;
+  font-family: "MullerBold", sans-serif;
+}
+
+.color-gold {
+  color: #F6AF47;
+}
+
+.color-grey {
+  color: #B5905B;
+}
+
+.color-brown {
+  color: #362408;
 }
 
 .text-center {
@@ -43,14 +55,29 @@ h6 {
 }
 
 .block {
-  max-width: 1200px;
-  margin: 4px auto;
   height: 64px;
+  margin: 4px auto;
+  /* max-width: 900px; */
+  max-width: 1200px;
+}
+
+.btn {
+  background-color: #F6AF47;
+  color: #362408;
+  font-family: "MullerBold", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 60px;
+  min-width: 224px;
+  text-align: center;
+}
+
+.btn-select {
+  margin-top: 40px;
 }
 
 .border {
   border: 2px solid grey;
-
 }
 
 .border-orange {
@@ -61,24 +88,111 @@ h6 {
   border-color: green;
 }
 
+/* Header */
+.header {
+  height: 100vh;
+}
+
+/* Navigation */
 .navigation-cover {
   box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.128);
 }
 
 .navigation {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  display: flex;
   height: 100px;
   padding: 15px 0;
 }
 
+.logo {
+  align-items: center;
+  display: flex;
+  width: 204px;
+}
+
+.logo-image {
+  height: 69px;
+  width: 68px;
+  margin-right: 8px;
+}
+
+.logo-title {
+  color: #F6AF47;
+  font-family: "MullerExtraBold", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.navigation-items {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin-left: 204px;
+  text-align: center;
+}
+
+.navigation-item {
+  align-items: baseline;
+  color: #B5905B;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+/* Hellow */
+
+.hellow {
+  background-image: url(/images/hellow/pizza_big.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 448px;
+  margin-top: 134px;
+}
+
+.hellow-title {
+  font-size: 45px;
+}
+
+.hellow-items-cover {
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.hellow-item {
+  display: flex;
+  align-items: start;
+  font-size: 16px;
+  margin-top: 20px;
+  padding-right: 8px;
+  width: 50%;
+}
+
+.hellow-item-image {
+  margin-right: 8px;
+  padding-right: 8px;
+  width: 60px;
+}
+
+.hellow-item-title {
+  color: #F6AF47;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hellow-item-text {
+  color: #B5905B;
+  line-height: 1;
+  margin-top: 6px;
+}
+
+/* Select */
 .select-cover {
   width: 25%;
 }
 
-.header {
-  height: 50vh;
-}
 
-.hellow {
-  background-color: cornflowerblue;
-}
+
+/* Footer */
