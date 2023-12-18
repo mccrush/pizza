@@ -59,7 +59,7 @@ h6 {
 }
 
 .container {
-  background-image: url(./images/footer/pizzzzza.png);
+  background-image: url(./../images/footer/pizzzzza.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -199,7 +199,7 @@ h6 {
 
 /* Hellow */
 .hellow {
-  background-image: url(./images/hellow/pizza_big.png);
+  background-image: url(./../images/hellow/pizza_big.png);
   background-repeat: no-repeat;
   background-position: center right;
   height: 448px;
