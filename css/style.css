@@ -58,9 +58,15 @@ h6 {
   margin-left: 24px;
 }
 
+.container {
+  background-image: url(/images/footer/pizzzzza.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
 .block {
-  height: 64px;
-  margin: 4px auto;
+  /* height: 64px; */
+  margin: 0 auto;
   /* max-width: 900px; */
   max-width: 1200px;
 }
@@ -86,6 +92,11 @@ h6 {
   width: 100%;
 }
 
+.btn-order {
+  /* margin-top: 34px; */
+  width: 100%;
+}
+
 .border {
   border: 2px solid grey;
 }
@@ -96,11 +107,6 @@ h6 {
 
 .border-green {
   border-color: green;
-}
-
-/* Header */
-.header {
-  height: 100vh;
 }
 
 /* Navigation */
@@ -201,7 +207,7 @@ h6 {
 /* Select */
 .select {
   /* height: 70vh; */
-  margin-top: 160px;
+  margin-top: 100px;
 }
 
 .select-cover {
@@ -249,14 +255,45 @@ h6 {
 
 
 /* Footer */
+
+.footer {
+  display: flex;
+  margin-top: 240px;
+  padding-bottom: 100px;
+}
+
 .footer-message {
   width: 384px;
 }
 
+.footer-title {
+  font-family: "MullerExtraBold", sans-serif;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
 .footer-text {
-  margin-top: 30px;
+  color: #B5905B;
+  line-height: 1.4;
+  margin-top: 64px;
 }
 
 .footer-form {
+  /* border: 1px solid grey; */
   margin-left: 128px;
+  padding-top: 46px;
+  width: 330px;
+}
+
+.footer-form-input {
+  border: 1px solid #B5905B;
+  margin-bottom: 24px;
+  padding: 24px;
+  width: 100%;
+}
+
+.footer-form-input::placeholder {
+  color: #B5905B;
+  font-family: "MullerRegular", sans-serif;
+  font-size: 18px;
 }
