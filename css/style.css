@@ -80,7 +80,6 @@ h6 {
   font-size: 16px;
   font-weight: bold;
   height: 60px;
-  min-width: 224px;
   text-align: center;
   transition: ease-in-out .2s;
 }
@@ -92,6 +91,7 @@ h6 {
 
 .btn-select {
   margin-top: 40px;
+  width: 224px;
 }
 
 .btn-busket {
@@ -101,6 +101,10 @@ h6 {
 
 .btn-order {
   width: 100%;
+}
+
+.btn-navigation {
+  width: 60px;
 }
 
 /* Navigation */
@@ -154,6 +158,16 @@ h6 {
 .navigation-item:hover {
   color: #382400;
 }
+
+/* @media only screen and (min-width: 768px) {
+  .navigation {
+    display: none;
+  }
+
+  .navigation-mobile {
+    display: flex;
+  }
+} */
 
 /* Hellow */
 .hellow {
