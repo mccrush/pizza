@@ -186,12 +186,16 @@
       </div>
 
       <div class="footer-form">
-        <input type="text" name="name" placeholder="Ваше имя" class="footer-form-input">
-        <input type="text" name="addres" placeholder="Адрес доставки" class="footer-form-input">
-        <input type="text" name="phone" placeholder="Телефон" class="footer-form-input">
-        <button class="btn btn-order">Оформить заказ</button>
+        <input type="text" name="name" placeholder="Ваше имя" class="footer-form-input" id="inputName">
+        <input type="text" name="addres" placeholder="Адрес доставки" class="footer-form-input" id="inputAddres">
+        <input type="text" name="phone" placeholder="Телефон" class="footer-form-input" id="inputPhone">
+        <button class="btn btn-order" id="sendOrder">Оформить заказ</button>
       </div>
     </div>
+  </div>
+
+  <div class="modal-window" id="modalWindow">
+    <img src="/images/select/Layer 7.png" class="modal-image">
   </div>
 
   <script src="/js/index.js"></script>

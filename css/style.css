@@ -334,6 +334,30 @@ h6 {
   font-size: 18px;
 }
 
+/* modal-window */
+.modal-window {
+  background-color: rgba(70, 70, 70, 0.7);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.modal-close {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+}
+
+.modal-image {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
 
 /* До ширины 768px для мобильных */
 @media screen and (max-width: 768px) {
